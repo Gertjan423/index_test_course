@@ -297,6 +297,9 @@ chapters:
       - type: MultipleChoiceExercise
         title: SQL
         content: 'TRUE or FALSE, you can recreate each type of SQL join with dplyr'
+      - type: VideoExercise
+        title: One too many
+        content: One video exercise too many is no fun...
   - chapter_title: Case study
     chapter_description: >-
       You know the in's and out's of two-table verbs with dplyr, but your
