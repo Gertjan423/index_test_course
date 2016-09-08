@@ -1,5 +1,5 @@
 course_title: Testing index editor
-course_description: 'Yep, it will be epic! Soooo epic!    test test test'
+course_description: 'Yep, it will be epic! Soooo epic!'
 chapters:
   - chapter_title: Mutating joins
     chapter_description: >-
