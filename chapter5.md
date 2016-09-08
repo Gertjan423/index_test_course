@@ -2,13 +2,13 @@
 title        : Case study
 description  : You know the in's and out's of two-table verbs with dplyr, but your knowledge is untried! Let's cement what you've learned with a real world application. 
 
---- type:VideoExercise lang:python xp: skills: key:c5ea824a3d
+--- type:VideoExercise lang:python xp: skills: key:51410de02d
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:b30007e3f8
+--- type:NormalExercise lang:python xp: skills: key:b97f2550ab
 ## TBD 
 TBD
 
@@ -24,7 +24,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:60af41f1d7
+--- type:NormalExercise lang:python xp: skills: key:72b2bdf48e
 ## TBD 
 TBD
 
@@ -40,7 +40,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:66ed553364
+--- type:NormalExercise lang:python xp: skills: key:ea2ee9aaae
 ## TBD 
 TBD
 
@@ -56,7 +56,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:5f6158b7d9
+--- type:NormalExercise lang:python xp: skills: key:b5227f85dc
 ## TBD 
 TBD
 
@@ -72,13 +72,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:6506860c9a
+--- type:VideoExercise lang:python xp: skills: key:43f51e9e05
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:0ece4891de
+--- type:NormalExercise lang:python xp: skills: key:5b5939e32e
 ## TBD 
 TBD
 
@@ -94,7 +94,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:0f751d20c0
+--- type:NormalExercise lang:python xp: skills: key:2ad890c9fa
 ## TBD 
 TBD
 
@@ -110,7 +110,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:cbb497c38c
+--- type:NormalExercise lang:python xp: skills: key:dd1ac5b2d2
 ## TBD 
 TBD
 
@@ -126,7 +126,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:2246c9fb87
+--- type:NormalExercise lang:python xp: skills: key:6e532d0ffa
 ## TBD 
 TBD
 
@@ -142,13 +142,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:6821ab6ed5
+--- type:VideoExercise lang:python xp: skills: key:fb3a2911ef
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:d597d07ffa
+--- type:NormalExercise lang:python xp: skills: key:70a9202e05
 ## TBD 
 TBD
 
@@ -164,7 +164,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:bf4792ec33
+--- type:NormalExercise lang:python xp: skills: key:fd1c791cd9
 ## TBD 
 TBD
 
@@ -180,7 +180,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:19b62534fb
+--- type:NormalExercise lang:python xp: skills: key:93d99d4fb9
 ## TBD 
 TBD
 
@@ -196,7 +196,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:d5db9d9266
+--- type:NormalExercise lang:python xp: skills: key:531ded5a46
 ## TBD 
 TBD
 
