@@ -2,13 +2,13 @@
 title        : Case study
 description  : You know the in's and out's of two-table verbs with dplyr, but your knowledge is untried! Let's cement what you've learned with a real world application.
 
---- type:VideoExercise lang: xp: skills: key:fa9427a93a
+--- type:VideoExercise lang: xp: skills: key:b955569aae
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:33dee14bc7
+--- type:NormalExercise lang: xp: skills: key:9dad97f86a
 ## TBD
 TBD
 
@@ -24,7 +24,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:115597efc3
+--- type:NormalExercise lang: xp: skills: key:d13233685e
 ## TBD
 TBD
 
@@ -40,7 +40,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:d1716ed360
+--- type:NormalExercise lang: xp: skills: key:3d0d66f266
 ## TBD
 TBD
 
@@ -56,7 +56,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:beccd2639c
+--- type:NormalExercise lang: xp: skills: key:5cfa81fcff
 ## TBD
 TBD
 
@@ -72,13 +72,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:6d3c350a3e
+--- type:VideoExercise lang: xp: skills: key:6868a2aad7
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:96bc52c70c
+--- type:NormalExercise lang: xp: skills: key:2c7a8446b2
 ## TBD
 TBD
 
@@ -94,7 +94,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:16efc4f0c2
+--- type:NormalExercise lang: xp: skills: key:df04fbafd6
 ## TBD
 TBD
 
@@ -110,7 +110,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:29e9eb9611
+--- type:NormalExercise lang: xp: skills: key:ea93552a81
 ## TBD
 TBD
 
@@ -126,7 +126,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:312ae4961d
+--- type:NormalExercise lang: xp: skills: key:7a0b684800
 ## TBD
 TBD
 
@@ -142,13 +142,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:b2e52d2627
+--- type:VideoExercise lang: xp: skills: key:2c022f0c22
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:adb39e2d26
+--- type:NormalExercise lang: xp: skills: key:7bf88bc5fa
 ## TBD
 TBD
 
@@ -164,7 +164,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:d178798f83
+--- type:NormalExercise lang: xp: skills: key:806014cd14
 ## TBD
 TBD
 
@@ -180,7 +180,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:4949255923
+--- type:NormalExercise lang: xp: skills: key:8ab17139b4
 ## TBD
 TBD
 
@@ -196,7 +196,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:82755ce6c3
+--- type:NormalExercise lang: xp: skills: key:897ceb3437
 ## TBD
 TBD
 
