@@ -1,5 +1,5 @@
 ---
-title        : Mutating joins yyy
+title        : Mutating joins 
 description  : Mutating joins add new variables to one data set from another data set, matching observations across rows in the process. This chapter will explain the various ways you can join data sets together and what happens when you do. 
 
 --- type:VideoExercise lang:python xp: skills: key:f6995eb768
