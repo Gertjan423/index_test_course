@@ -1,7 +1,7 @@
 course_title: Testing index editor
 course_description: 'Yep, it will be epic! Soooo epic!   '
 chapters:
-  - chapter_title: Mutating joinsyyyyyyyyy
+  - chapter_title: Mutating joins
     chapter_description: >-
       Mutating joins add new variables to one data set from another data set,
       matching observations across rows in the process. This chapter will

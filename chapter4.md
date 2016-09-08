@@ -1,13 +1,13 @@
 ---
 title       : Insert the chapter title here
 description : Insert the chapter description here
---- type:VideoExercise lang: xp: skills: key:1e788ff37c
+--- type:VideoExercise lang: xp: skills: key:a971885a16
 ## What can go wrong?
 Data entry errors can derail your joins. Here are the most  common types and how to search for them: duplicate keys in your data set and missing keys.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:d33f483e77
+--- type:MultipleChoiceExercise lang: xp: skills: key:b4b4567047
 ## Spot the key
 What is the primary key for this data set?
 
@@ -19,7 +19,7 @@ What is the primary key for this data set?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:1179775b61
+--- type:MultipleChoiceExercise lang: xp: skills: key:41cdec2161
 ## Unique keys
 Does the primary key uniquely identify each row? (no, you can add your own primary key with add_rownames())
 
@@ -31,7 +31,7 @@ Does the primary key uniquely identify each row? (no, you can add your own prima
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:0cca8e4e91
+--- type:NormalExercise lang: xp: skills: key:6f107678c3
 ## Too many keys
 Join the data sets together. What happens to the duplicate keys?
 
@@ -47,7 +47,7 @@ Join the data sets together. What happens to the duplicate keys?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:35007912a3
+--- type:NormalExercise lang: xp: skills: key:8ae2424285
 ## Missing keys
 Which rows contain a missing key variable?
 
@@ -63,13 +63,13 @@ Which rows contain a missing key variable?
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:cc73abd221
+--- type:VideoExercise lang: xp: skills: key:2a5b40a100
 ## Defining the keys
 dplyr gives you a lot of control over how you join rows in data sets. You can rely on dplyr to match up rows automatically, select a subset of keys to join on, or specify a join between keys that have different names.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:cdfb9bf5e1
+--- type:MultipleChoiceExercise lang: xp: skills: key:1aa11ade46
 ## Which keys?
 Which keys will dplyr join on if you set by = "NULL" (the default)?
 
@@ -81,7 +81,7 @@ Which keys will dplyr join on if you set by = "NULL" (the default)?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:566c9695d0
+--- type:NormalExercise lang: xp: skills: key:b89e589146
 ## A subset of keys
 Join based on just the x variable. What will happen to the duplicate y and z variables?
 
@@ -97,7 +97,7 @@ Join based on just the x variable. What will happen to the duplicate y and z var
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:6fbaf64715
+--- type:NormalExercise lang: xp: skills: key:1f86b9b403
 ## Mis-matched key names
 Join based on just the X$x variable and the Y$y variables
 
@@ -113,7 +113,7 @@ Join based on just the X$x variable and the Y$y variables
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:e27dba7e74
+--- type:NormalExercise lang: xp: skills: key:9ae0f0fa87
 ## More mis-matched names
 Join based on these sets of variables
 
@@ -129,13 +129,13 @@ Join based on these sets of variables
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:3d5dfc07b0
+--- type:VideoExercise lang: xp: skills: key:fece648eba
 ## Joining multiple tables
 Joins are always defined as a relationship between two data sets. To join more than two data sets together, join them iteratively with the `purrr::Reduce()` function
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:e9828a9238
+--- type:MultipleChoiceExercise lang: xp: skills: key:6f513a1114
 ## purrr
 purrr is a package that does what?
 
@@ -147,7 +147,7 @@ purrr is a package that does what?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:203b86f124
+--- type:NormalExercise lang: xp: skills: key:f5335a905f
 ## Join multiple tables
 Join these n tables
 
@@ -163,7 +163,7 @@ Join these n tables
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:b40a178430
+--- type:NormalExercise lang: xp: skills: key:da206c6690
 ## Filter multiple tables
 Which observations are common to all n tables?
 
@@ -179,13 +179,13 @@ Which observations are common to all n tables?
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:7556818dbc
+--- type:VideoExercise lang: xp: skills: key:0cbd47472e
 ## Other implementations
 Dplyr joins are analagous to other joins you may be doing (or may one day want to do) in other languages. Here we look at how to recreate dplyr joins with the base function merge and SQL.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:0a817a1f74
+--- type:MultipleChoiceExercise lang: xp: skills: key:a536bfc7d1
 ## SQL
 TRUE or FALSE, you can recreate each type of SQL join with dplyr
 
@@ -197,7 +197,7 @@ TRUE or FALSE, you can recreate each type of SQL join with dplyr
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:a6fe60da87
+--- type:VideoExercise lang: xp: skills: key:ea6bab4316
 ## One too many
 One video exercise too many is no fun...
 
