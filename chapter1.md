@@ -1,13 +1,13 @@
 ---
 title       : Insert the chapter title here
 description : Insert the chapter description here
---- type:VideoExercise lang: xp: skills: key:7cf70a831f
+--- type:VideoExercise lang: xp: skills: key:80109862b2
 ## Welcome to the course!
 Introduction. Why use dplyr to join data? Many data sets come in multiple tables, in fact that's the easiest way to store large data. dplyr joins faster are faster than base merges and preserve row order. You can also use them with dplyr's built in SQL backend.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:2705c92c48
+--- type:MultipleChoiceExercise lang: xp: skills: key:84d0abc9a2
 ## The advantages of dplyr
 Which is not a reason to use dplyr to join data?
 
@@ -19,7 +19,7 @@ Which is not a reason to use dplyr to join data?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:4c4b454d3e
+--- type:NormalExercise lang: xp: skills: key:c917ae6880
 ## Our data
 Which data set contains the X variable?
 
@@ -35,13 +35,13 @@ Which data set contains the X variable?
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:13c92f8450
+--- type:VideoExercise lang: xp: skills: key:c2a9e10ff7
 ## Keys
 To join two tables you need to identify a pair of keys that connect the tables. Keys are variables whose values are shared across tables. There are two kinds of keys, primary and secondary.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:2c498060fc
+--- type:MultipleChoiceExercise lang: xp: skills: key:f797ed9367
 ## Primary keys
 Examine the data set, what is the primary key for this data set?
 
@@ -53,7 +53,7 @@ Examine the data set, what is the primary key for this data set?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:173b00b27e
+--- type:MultipleChoiceExercise lang: xp: skills: key:097d0f5bf3
 ## Secondary keys
 Which data sets have a secondary key that matches the primary?
 
@@ -65,7 +65,7 @@ Which data sets have a secondary key that matches the primary?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:1a8bf83c63
+--- type:MultipleChoiceExercise lang: xp: skills: key:cf6fe80870
 ## Multi-variable keys
 In some cases the unique primary key is the interaction of two or more variables. What would be the primary key of this data set?
 
@@ -77,13 +77,13 @@ In some cases the unique primary key is the interaction of two or more variables
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:f3513aa0b8
+--- type:VideoExercise lang: xp: skills: key:cff4cb5094
 ## Joins
 Demonstrate left_join() and right_join().
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:ab134a42f9
+--- type:NormalExercise lang: xp: skills: key:26fc766130
 ## A basic join
 Use pre-code with left_join()
 
@@ -99,7 +99,7 @@ Use pre-code with left_join()
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:ab26b58189
+--- type:NormalExercise lang: xp: skills: key:58d6ee1443
 ## A right join
 Use pre-code with right_join()
 
@@ -115,7 +115,7 @@ Use pre-code with right_join()
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:00ca9e9d20
+--- type:MultipleChoiceExercise lang: xp: skills: key:ed86bb2097
 ## Right vs. left
 Can you tell the difference between a right and a left join? How many rows will the result have if you right join the two data sets to the right. Each data set contains one unique observation per row. Pre-code should show the nrow() of two data sets and the nrow() of left joining them.
 
@@ -127,13 +127,13 @@ Can you tell the difference between a right and a left join? How many rows will 
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:244d6aa752
+--- type:VideoExercise lang: xp: skills: key:efa5f3f357
 ## Variations on joins
 Explain diagram syntax. Demonstrate the differences between left_join(), right_join(), inner_join(), and full_join().
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:ff172197ac
+--- type:NormalExercise lang: xp: skills: key:c70b588f61
 ## Inner joins
 Use pre-code to complete an inner_join()
 
@@ -149,7 +149,7 @@ Use pre-code to complete an inner_join()
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:843682d7c1
+--- type:NormalExercise lang: xp: skills: key:c54c0e5b57
 ## Full joins
 Use pre-code to complete an full_join()
 
@@ -165,7 +165,7 @@ Use pre-code to complete an full_join()
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:09ea7e3458
+--- type:MultipleChoiceExercise lang: xp: skills: key:70af19314e
 ## Choose a join
 Describe a result and have students choose which of the joins will return it.
 
@@ -177,7 +177,7 @@ Describe a result and have students choose which of the joins will return it.
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:c30940ddec
+--- type:NormalExercise lang: xp: skills: key:db3b8617f6
 ## Use a join
 Use a dplyr join function to return every row that appears in either data set.
 
