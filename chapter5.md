@@ -1,13 +1,13 @@
 ---
 title       : Insert the chapter title here
 description : Insert the chapter description here
---- type:VideoExercise lang: xp: skills: key:2e691a674a
+--- type:VideoExercise lang: xp: skills: key:25459a0acd
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:8672a79c70
+--- type:NormalExercise lang: xp: skills: key:8dc08c0274
 ## TBD
 TBD
 
@@ -23,7 +23,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:e08d39c8a1
+--- type:NormalExercise lang: xp: skills: key:57e83f6e7a
 ## TBD
 TBD
 
@@ -39,7 +39,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:551af29d31
+--- type:NormalExercise lang: xp: skills: key:cb22357e1c
 ## TBD
 TBD
 
@@ -55,7 +55,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:ecbb7cf686
+--- type:NormalExercise lang: xp: skills: key:b9902e7163
 ## TBD
 TBD
 
@@ -71,13 +71,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:306f156301
+--- type:VideoExercise lang: xp: skills: key:0daf59984a
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:b8cb925286
+--- type:NormalExercise lang: xp: skills: key:2d8caad391
 ## TBD
 TBD
 
@@ -93,7 +93,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:f749392267
+--- type:NormalExercise lang: xp: skills: key:05b9b11484
 ## TBD
 TBD
 
@@ -109,7 +109,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:313dbb26f5
+--- type:NormalExercise lang: xp: skills: key:9932210e81
 ## TBD
 TBD
 
@@ -125,7 +125,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:d6cdae1ef2
+--- type:NormalExercise lang: xp: skills: key:85df5de949
 ## TBD
 TBD
 
@@ -141,13 +141,13 @@ TBD
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:84b412b49e
+--- type:VideoExercise lang: xp: skills: key:223e150373
 ## TBD
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:4ca8f6c3ca
+--- type:NormalExercise lang: xp: skills: key:9fffea4565
 ## TBD
 TBD
 
@@ -163,7 +163,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:2d39a9536d
+--- type:NormalExercise lang: xp: skills: key:29d4a0123d
 ## TBD
 TBD
 
@@ -179,7 +179,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:73fff163b0
+--- type:NormalExercise lang: xp: skills: key:5e814072c8
 ## TBD
 TBD
 
@@ -195,7 +195,7 @@ TBD
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:573ca3d9fa
+--- type:NormalExercise lang: xp: skills: key:e7dc23f1ee
 ## TBD
 TBD
 
