@@ -1,13 +1,13 @@
 ---
 title       : Insert the chapter title here
 description : Insert the chapter description here
---- type:VideoExercise lang: xp: skills: key:d4d9abaec0
+--- type:VideoExercise lang: xp: skills: key:b0a4767e38
 ## Binds
 Binds join data sets together in a very simple way; they either add one data set as observations of the other or as variables of the other. Demo of bind_rows() and bind_cols.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:0364a9e7b4
+--- type:NormalExercise lang: xp: skills: key:1dc760ab42
 ## Which bind?
 Bind these data sets into a single data set. Which bind should you use?
 
@@ -23,7 +23,7 @@ Bind these data sets into a single data set. Which bind should you use?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:9ccc39e0f6
+--- type:NormalExercise lang: xp: skills: key:3e18e76852
 ## Bind rows
 Use one command to bind the entire list of data sets into a single data set. Then run the complete code to do something nice.
 
@@ -39,7 +39,7 @@ Use one command to bind the entire list of data sets into a single data set. The
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:589cc7728a
+--- type:NormalExercise lang: xp: skills: key:6e72cbe0b1
 ## Bind columns
 Use bind cols
 
@@ -55,7 +55,7 @@ Use bind cols
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:491535ca61
+--- type:MultipleChoiceExercise lang: xp: skills: key:6b197aa65a
 ## Danger
 What is the biggest risk when using bind cols?
 
@@ -67,13 +67,13 @@ What is the biggest risk when using bind cols?
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:d2acccd829
+--- type:VideoExercise lang: xp: skills: key:f37d124371
 ## Build a better data frame
 data_frame() is a trimmed down version of data.frame that never coerces inputs (i.e. strings stay as strings!), never adds row.names, never munges column names, only recycles length 1 inputs, evaluates its arguments lazily and in order, and adds tbl_df class to output. frame_data() does the same thing rowwise
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:2a752ed3e1
+--- type:MultipleChoiceExercise lang: xp: skills: key:5f0a2321f5
 ## data_frame
 Which is not an advantage of data_frame over data.frame?
 
@@ -85,7 +85,7 @@ Which is not an advantage of data_frame over data.frame?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:1739623aa0
+--- type:NormalExercise lang: xp: skills: key:252025ba98
 ## Make a data frame
 Turn this columnwise data into a data frame
 
@@ -101,7 +101,7 @@ Turn this columnwise data into a data frame
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:4565b1c24c
+--- type:NormalExercise lang: xp: skills: key:7fac1231ce
 ## Make another data frame
 Turn this rowwise data into a data frame
 
@@ -117,7 +117,7 @@ Turn this rowwise data into a data frame
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:aa5113783e
+--- type:NormalExercise lang: xp: skills: key:8c04ad3374
 ## Make one last data frame
 Turn this list into a data frame
 
@@ -133,13 +133,13 @@ Turn this list into a data frame
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:d3805729cb
+--- type:VideoExercise lang: xp: skills: key:4bdbf8a875
 ## Working with data types
 There are several different common data types in R, and sometimes R has to turn one into another, which is known as coercion. Here's how to tell what data types you have and how  (and when) dplyr will coerce them
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang: xp: skills: key:0b8a31e214
+--- type:MultipleChoiceExercise lang: xp: skills: key:e620985e6e
 ## Atomic data types
 Which best describes R's coercion rules?
 
@@ -151,7 +151,7 @@ Which best describes R's coercion rules?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:5b01231034
+--- type:NormalExercise lang: xp: skills: key:bc68a2e616
 ## Determining type
 Run the code to see the type of X$x. Then write code and determine the type of Y$x
 
@@ -167,7 +167,7 @@ Run the code to see the type of X$x. Then write code and determine the type of Y
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:02f8b4e77f
+--- type:NormalExercise lang: xp: skills: key:615f049d4f
 ## Results
 Join the data sets together by x with a left join. Then determine the type of the output x.
 

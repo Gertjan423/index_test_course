@@ -1,13 +1,13 @@
 ---
 title       : Insert the chapter title here
 description : Insert the chapter description here
---- type:VideoExercise lang: xp: skills: key:0d95278d26
+--- type:VideoExercise lang: xp: skills: key:b04da07cb3
 ## Semi-joins
 Have you ever tried to filter data based on the combination of many variables. You could try to do this with `filter()`, but it will be much easier with a semi-join.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:b4d9327c40
+--- type:NormalExercise lang: xp: skills: key:98485cc35f
 ## Semi-join
 Return just the rows of X that we have Y information for
 
@@ -23,7 +23,7 @@ Return just the rows of X that we have Y information for
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:f9adc177eb
+--- type:NormalExercise lang: xp: skills: key:375859438f
 ## Semi-join 2
 Do any of the rows in X match any of the rows in Y?
 
@@ -39,7 +39,7 @@ Do any of the rows in X match any of the rows in Y?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:b0f93abef1
+--- type:MultipleChoiceExercise lang: xp: skills: key:a78de884e2
 ## A more precise way to filter?
 We've attempted to rewrite this semi-join as a filter. Will it return the same results?
 
@@ -51,13 +51,13 @@ We've attempted to rewrite this semi-join as a filter. Will it return the same r
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:f19227c3a6
+--- type:VideoExercise lang: xp: skills: key:b1e0be4e3d
 ## Anti-joins
 Anti-joins do the opposite of semi-joins, they show which rows do not have matches. Anti-joins are a convenient way to check for errors before they occur.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:c353e9afbc
+--- type:NormalExercise lang: xp: skills: key:168ac1341d
 ## Anti-join
 Which rows of X do we not have Y information for?
 
@@ -73,7 +73,7 @@ Which rows of X do we not have Y information for?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:38cef6df84
+--- type:NormalExercise lang: xp: skills: key:077c7e4c35
 ## Anti-Join 2
 Were any of the keys of X mis-entered? Use an anti-join to check
 
@@ -89,7 +89,7 @@ Were any of the keys of X mis-entered? Use an anti-join to check
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:2ed001a6fc
+--- type:NormalExercise lang: xp: skills: key:b251664a74
 ## Which filtering join?
 Use a filtering join to determine how many matches exist between X and Y
 
@@ -105,13 +105,13 @@ Use a filtering join to determine how many matches exist between X and Y
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:6c775a8344
+--- type:VideoExercise lang: xp: skills: key:83958db2de
 ## Set Operations
 Set operations include union(), intersect() and setdiff(). They let you group observations from two data sets into a new data set.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:dd2d4400e2
+--- type:NormalExercise lang: xp: skills: key:26dbb6f1e5
 ## Union
 How many unique observations are there in these two data sets?
 
@@ -127,7 +127,7 @@ How many unique observations are there in these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:69290f7133
+--- type:NormalExercise lang: xp: skills: key:41a91b1042
 ## Intersection
 How many observations are shared between these two data sets?
 
@@ -143,7 +143,7 @@ How many observations are shared between these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:3a19071e1f
+--- type:NormalExercise lang: xp: skills: key:50c17ecc34
 ## Setdiff
 Which observations are in X but not Y?
 
@@ -159,7 +159,7 @@ Which observations are in X but not Y?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:21edb70d34
+--- type:NormalExercise lang: xp: skills: key:b1d1a34586
 ## Operations
 Combine union and setdiff operations to return all of the observations that are in one data set, but not the other.
 
@@ -175,7 +175,7 @@ Combine union and setdiff operations to return all of the observations that are 
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:bb89a1708b
+--- type:MultipleChoiceExercise lang: xp: skills: key:b664b57819
 ## Unique values
 Will the result of this union statement contain fewer rows than the original data set? That would seem paradoxical.
 
@@ -187,13 +187,13 @@ Will the result of this union statement contain fewer rows than the original dat
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:72bbd90349
+--- type:VideoExercise lang: xp: skills: key:f42c81f158
 ## Comparing data sets
 Use setequal or all.equal to check whether two data sets contain of the same observations.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:71943ba5d6
+--- type:NormalExercise lang: xp: skills: key:022fb4bfe6
 ## setequal
 Does the second data set contain any new information?
 
@@ -209,7 +209,7 @@ Does the second data set contain any new information?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:16dc016462
+--- type:NormalExercise lang: xp: skills: key:37c19a805d
 ## setequal
 Write a filtering join that would also check if the second data set contains new information?
 
