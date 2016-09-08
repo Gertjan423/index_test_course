@@ -1,6 +1,6 @@
 course_title: Testing index editor
 course_description: 'Yep, it will be epic! Soooo epic!     '
-programming_language: r
+programming_language: python
 chapters:
   - chapter_title: Mutating joins yyy
     chapter_description: >-
