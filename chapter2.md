@@ -2,13 +2,13 @@
 title        : Filtering joins and set operations
 description  : Filtering joins and Set operations combine information from data sets without adding new variables. Filtering joins filter the observations of one data set based on whether or not they occur in a second data set. Set operations use combinations of observations from both data sets to create a new data set. 
 
---- type:VideoExercise lang:python xp: skills: key:32b534629c
+--- type:VideoExercise lang:python xp: skills: key:11504bcecb
 ## Semi-joins 
 Have you ever tried to filter data based on the combination of many variables. You could try to do this with `filter()`, but it will be much easier with a semi-join.
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:ce33a8de56
+--- type:NormalExercise lang:python xp: skills: key:c83782446b
 ## Semi-join 
 Return just the rows of X that we have Y information for
 
@@ -24,7 +24,7 @@ Return just the rows of X that we have Y information for
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:bf6e3f9288
+--- type:NormalExercise lang:python xp: skills: key:8118c4ccc4
 ## Semi-join 2 
 Do any of the rows in X match any of the rows in Y?
 
@@ -40,7 +40,7 @@ Do any of the rows in X match any of the rows in Y?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:bd824a3853
+--- type:MultipleChoiceExercise lang:python xp: skills: key:92a5d5c7b7
 ## A more precise way to filter? 
 We've attempted to rewrite this semi-join as a filter. Will it return the same results?
 
@@ -52,13 +52,13 @@ We've attempted to rewrite this semi-join as a filter. Will it return the same r
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:ef1ad94203
+--- type:VideoExercise lang:python xp: skills: key:b8b91a1c1b
 ## Anti-joins 
 Anti-joins do the opposite of semi-joins, they show which rows do not have matches. Anti-joins are a convenient way to check for errors before they occur.
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:314f8c24eb
+--- type:NormalExercise lang:python xp: skills: key:a726228755
 ## Anti-join 
 Which rows of X do we not have Y information for?
 
@@ -74,7 +74,7 @@ Which rows of X do we not have Y information for?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:f86d726fed
+--- type:NormalExercise lang:python xp: skills: key:a8192dd03e
 ## Anti-Join 2 
 Were any of the keys of X mis-entered? Use an anti-join to check
 
@@ -90,7 +90,7 @@ Were any of the keys of X mis-entered? Use an anti-join to check
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:4c38e9141e
+--- type:NormalExercise lang:python xp: skills: key:7fdfb2e06b
 ## Which filtering join? 
 Use a filtering join to determine how many matches exist between X and Y
 
@@ -106,13 +106,13 @@ Use a filtering join to determine how many matches exist between X and Y
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:c3dc020b1b
+--- type:VideoExercise lang:python xp: skills: key:99c817941d
 ## Set Operations 
 Set operations include union(), intersect() and setdiff(). They let you group observations from two data sets into a new data set.
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:844e2d6582
+--- type:NormalExercise lang:python xp: skills: key:c0a4b2f372
 ## Union 
 How many unique observations are there in these two data sets?
 
@@ -128,7 +128,7 @@ How many unique observations are there in these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:a43486b90b
+--- type:NormalExercise lang:python xp: skills: key:ff0595f9ac
 ## Intersection 
 How many observations are shared between these two data sets?
 
@@ -144,7 +144,7 @@ How many observations are shared between these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:88c947ced2
+--- type:NormalExercise lang:python xp: skills: key:005387a084
 ## Setdiff 
 Which observations are in X but not Y?
 
@@ -160,7 +160,7 @@ Which observations are in X but not Y?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:60dc1ac061
+--- type:NormalExercise lang:python xp: skills: key:29a8535d28
 ## Operations 
 Combine union and setdiff operations to return all of the observations that are in one data set, but not the other.
 
@@ -176,7 +176,7 @@ Combine union and setdiff operations to return all of the observations that are 
 
 *** =sct
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:1eebc62f8a
+--- type:MultipleChoiceExercise lang:python xp: skills: key:f443045194
 ## Unique values 
 Will the result of this union statement contain fewer rows than the original data set? That would seem paradoxical.
 
@@ -188,13 +188,13 @@ Will the result of this union statement contain fewer rows than the original dat
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:f2c0eae939
+--- type:VideoExercise lang:python xp: skills: key:22449ca956
 ## Comparing data sets 
 Use setequal or all.equal to check whether two data sets contain of the same observations.
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:8c6ae090cd
+--- type:NormalExercise lang:python xp: skills: key:1705d949a8
 ## setequal 
 Does the second data set contain any new information?
 
@@ -210,7 +210,7 @@ Does the second data set contain any new information?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:b001ed89aa
+--- type:NormalExercise lang:python xp: skills: key:5d54a7915a
 ## setequal 
 Write a filtering join that would also check if the second data set contains new information?
 
