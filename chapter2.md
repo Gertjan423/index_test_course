@@ -1,15 +1,15 @@
 ---
 title        : Filtering joins and set operations
-description  : Filtering joins and Set operations combine information from data sets without adding new variables. Filtering joins filter the observations of one data set based on whether or not they occur in a second data set. Set operations use combinations of observations from both data sets to create a new data set.
+description  : Filtering joins and Set operations combine information from data sets without adding new variables. Filtering joins filter the observations of one data set based on whether or not they occur in a second data set. Set operations use combinations of observations from both data sets to create a new data set. 
 
---- type:VideoExercise lang: xp: skills: key:ad76dbd4d5
-## Semi-joins
+--- type:VideoExercise lang:r xp: skills: key:d80b5fe047
+## Semi-joins 
 Have you ever tried to filter data based on the combination of many variables. You could try to do this with `filter()`, but it will be much easier with a semi-join.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:3cc9647c35
-## Semi-join
+--- type:NormalExercise lang:r xp: skills: key:e9b425c185
+## Semi-join 
 Return just the rows of X that we have Y information for
 
 *** =instructions
@@ -24,8 +24,8 @@ Return just the rows of X that we have Y information for
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:ebe7dc71a9
-## Semi-join 2
+--- type:NormalExercise lang:r xp: skills: key:5ff08f4a8d
+## Semi-join 2 
 Do any of the rows in X match any of the rows in Y?
 
 *** =instructions
@@ -40,8 +40,8 @@ Do any of the rows in X match any of the rows in Y?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:bd49f62e12
-## A more precise way to filter?
+--- type:MultipleChoiceExercise lang:r xp: skills: key:f76fadf7c6
+## A more precise way to filter? 
 We've attempted to rewrite this semi-join as a filter. Will it return the same results?
 
 *** =instructions
@@ -52,14 +52,14 @@ We've attempted to rewrite this semi-join as a filter. Will it return the same r
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:4faeef92ea
-## Anti-joins
+--- type:VideoExercise lang:r xp: skills: key:4c97cab86b
+## Anti-joins 
 Anti-joins do the opposite of semi-joins, they show which rows do not have matches. Anti-joins are a convenient way to check for errors before they occur.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:899ba90ad5
-## Anti-join
+--- type:NormalExercise lang:r xp: skills: key:bc0bd20072
+## Anti-join 
 Which rows of X do we not have Y information for?
 
 *** =instructions
@@ -74,8 +74,8 @@ Which rows of X do we not have Y information for?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:ce168a464f
-## Anti-Join 2
+--- type:NormalExercise lang:r xp: skills: key:b7e8a8b63a
+## Anti-Join 2 
 Were any of the keys of X mis-entered? Use an anti-join to check
 
 *** =instructions
@@ -90,8 +90,8 @@ Were any of the keys of X mis-entered? Use an anti-join to check
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:0e1766fab2
-## Which filtering join?
+--- type:NormalExercise lang:r xp: skills: key:a94aa34881
+## Which filtering join? 
 Use a filtering join to determine how many matches exist between X and Y
 
 *** =instructions
@@ -106,14 +106,14 @@ Use a filtering join to determine how many matches exist between X and Y
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:5cd8b51166
-## Set Operations
+--- type:VideoExercise lang:r xp: skills: key:0a6e143351
+## Set Operations 
 Set operations include union(), intersect() and setdiff(). They let you group observations from two data sets into a new data set.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:9f072a03c7
-## Union
+--- type:NormalExercise lang:r xp: skills: key:02aa397985
+## Union 
 How many unique observations are there in these two data sets?
 
 *** =instructions
@@ -128,8 +128,8 @@ How many unique observations are there in these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:e1d4e49a23
-## Intersection
+--- type:NormalExercise lang:r xp: skills: key:2bb8f4bdb9
+## Intersection 
 How many observations are shared between these two data sets?
 
 *** =instructions
@@ -144,8 +144,8 @@ How many observations are shared between these two data sets?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:0854b356ad
-## Setdiff
+--- type:NormalExercise lang:r xp: skills: key:a4dbde3781
+## Setdiff 
 Which observations are in X but not Y?
 
 *** =instructions
@@ -160,8 +160,8 @@ Which observations are in X but not Y?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:869e27c828
-## Operations
+--- type:NormalExercise lang:r xp: skills: key:1cd85ff7d4
+## Operations 
 Combine union and setdiff operations to return all of the observations that are in one data set, but not the other.
 
 *** =instructions
@@ -176,8 +176,8 @@ Combine union and setdiff operations to return all of the observations that are 
 
 *** =sct
 
---- type:MultipleChoiceExercise lang: xp: skills: key:2fefad9812
-## Unique values
+--- type:MultipleChoiceExercise lang:r xp: skills: key:75ba52d4d2
+## Unique values 
 Will the result of this union statement contain fewer rows than the original data set? That would seem paradoxical.
 
 *** =instructions
@@ -188,14 +188,14 @@ Will the result of this union statement contain fewer rows than the original dat
 
 *** =sct
 
---- type:VideoExercise lang: xp: skills: key:81576db2f5
-## Comparing data sets
+--- type:VideoExercise lang:r xp: skills: key:acc2efddfc
+## Comparing data sets 
 Use setequal or all.equal to check whether two data sets contain of the same observations.
 
 *** =video_link
 
---- type:NormalExercise lang: xp: skills: key:ad90ee9129
-## setequal
+--- type:NormalExercise lang:r xp: skills: key:b9856859ad
+## setequal 
 Does the second data set contain any new information?
 
 *** =instructions
@@ -210,8 +210,8 @@ Does the second data set contain any new information?
 
 *** =sct
 
---- type:NormalExercise lang: xp: skills: key:e334b6ee72
-## setequal
+--- type:NormalExercise lang:r xp: skills: key:dcac8a6b07
+## setequal 
 Write a filtering join that would also check if the second data set contains new information?
 
 *** =instructions
