@@ -2,13 +2,13 @@
 title        : Advanced joining
 description  : Now that you have the basics, let's dive deep into the mechanics of joins. This chapter will show you how to spot common join problems; how to join based on multiple, or mis-matched keys; how to join multiple tables; and how you can recreate dplyr's joins with SQL and base R. 
 
---- type:VideoExercise lang:python xp: skills: key:0df253b62a
+--- type:VideoExercise lang:python xp: skills: key:2117271963
 ## What can go wrong? 
 Data entry errors can derail your joins. Here are the most  common types and how to search for them: duplicate keys in your data set and missing keys.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:60a5f0c571
+--- type:MultipleChoiceExercise lang:python xp: skills: key:2d02b7689e
 ## Spot the key 
 What is the primary key for this data set?
 
@@ -20,7 +20,7 @@ What is the primary key for this data set?
 
 *** =sct
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:2d86b02084
+--- type:MultipleChoiceExercise lang:python xp: skills: key:96e1907978
 ## Unique keys 
 Does the primary key uniquely identify each row? (no, you can add your own primary key with add_rownames())
 
@@ -32,7 +32,7 @@ Does the primary key uniquely identify each row? (no, you can add your own prima
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:a9cf9cb294
+--- type:NormalExercise lang:python xp: skills: key:b438fe93ed
 ## Too many keys 
 Join the data sets together. What happens to the duplicate keys?
 
@@ -48,7 +48,7 @@ Join the data sets together. What happens to the duplicate keys?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:60ad696d4d
+--- type:NormalExercise lang:python xp: skills: key:77a648df7f
 ## Missing keys 
 Which rows contain a missing key variable?
 
@@ -64,13 +64,13 @@ Which rows contain a missing key variable?
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:122ba2253b
+--- type:VideoExercise lang:python xp: skills: key:913a9e5b24
 ## Defining the keys 
 dplyr gives you a lot of control over how you join rows in data sets. You can rely on dplyr to match up rows automatically, select a subset of keys to join on, or specify a join between keys that have different names.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:b35c84e082
+--- type:MultipleChoiceExercise lang:python xp: skills: key:f78e311135
 ## Which keys? 
 Which keys will dplyr join on if you set by = "NULL" (the default)?
 
@@ -82,7 +82,7 @@ Which keys will dplyr join on if you set by = "NULL" (the default)?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:db2c5fc61a
+--- type:NormalExercise lang:python xp: skills: key:83ac1c6ce8
 ## A subset of keys 
 Join based on just the x variable. What will happen to the duplicate y and z variables?
 
@@ -98,7 +98,7 @@ Join based on just the x variable. What will happen to the duplicate y and z var
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:487d9fa32f
+--- type:NormalExercise lang:python xp: skills: key:d19a30da4a
 ## Mis-matched key names 
 Join based on just the X$x variable and the Y$y variables
 
@@ -114,7 +114,7 @@ Join based on just the X$x variable and the Y$y variables
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:383d6abc96
+--- type:NormalExercise lang:python xp: skills: key:499f6499ea
 ## More mis-matched names 
 Join based on these sets of variables
 
@@ -130,13 +130,13 @@ Join based on these sets of variables
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:8a7e39da3b
+--- type:VideoExercise lang:python xp: skills: key:8c627815d1
 ## Joining multiple tables 
 Joins are always defined as a relationship between two data sets. To join more than two data sets together, join them iteratively with the `purrr::Reduce()` function
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:a180e22375
+--- type:MultipleChoiceExercise lang:python xp: skills: key:2fca1525fd
 ## purrr 
 purrr is a package that does what?
 
@@ -148,7 +148,7 @@ purrr is a package that does what?
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:5c7990108c
+--- type:NormalExercise lang:python xp: skills: key:d27111b51e
 ## Join multiple tables 
 Join these n tables
 
@@ -164,7 +164,7 @@ Join these n tables
 
 *** =sct
 
---- type:NormalExercise lang:python xp: skills: key:40805cec13
+--- type:NormalExercise lang:python xp: skills: key:c3733ac217
 ## Filter multiple tables 
 Which observations are common to all n tables?
 
@@ -180,13 +180,13 @@ Which observations are common to all n tables?
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:aaea17556d
+--- type:VideoExercise lang:python xp: skills: key:6913f1423d
 ## Other implementations 
 Dplyr joins are analagous to other joins you may be doing (or may one day want to do) in other languages. Here we look at how to recreate dplyr joins with the base function merge and SQL.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:a53681f84d
+--- type:MultipleChoiceExercise lang:python xp: skills: key:2d8a47b232
 ## SQL 
 TRUE or FALSE, you can recreate each type of SQL join with dplyr
 
@@ -198,7 +198,7 @@ TRUE or FALSE, you can recreate each type of SQL join with dplyr
 
 *** =sct
 
---- type:VideoExercise lang:python xp: skills: key:da6e7dc211
+--- type:VideoExercise lang:python xp: skills: key:7d2a003e3d
 ## One too many 
 One video exercise too many is no fun...
 
