@@ -2,13 +2,13 @@
 title        : Case study
 description  : You know the in's and out's of two-table verbs with dplyr, but your knowledge is untried! Let's cement what you've learned with a real world application. 
 
---- type:VideoExercise lang:python xp: skills: key:2dd2caeed3
+--- type:VideoExercise lang:python xp: skills: key:a72b58e571
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:e5034d822c
+--- type:NormalExercise lang:python xp: skills: key:9c894e8025
 ## TBD 
 TBD
 
@@ -16,15 +16,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:18b0d11296
+--- type:NormalExercise lang:python xp: skills: key:7e80e0e7bd
 ## TBD 
 TBD
 
@@ -32,15 +32,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:fd5a6fa4ea
+--- type:NormalExercise lang:python xp: skills: key:f70e579b2f
 ## TBD 
 TBD
 
@@ -48,15 +48,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:fe37d8ffa9
+--- type:NormalExercise lang:python xp: skills: key:c54292eae0
 ## TBD 
 TBD
 
@@ -64,21 +64,21 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:VideoExercise lang:python xp: skills: key:91346d2042
+--- type:VideoExercise lang:python xp: skills: key:ba490bf441
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:df72132108
+--- type:NormalExercise lang:python xp: skills: key:2e6d312280
 ## TBD 
 TBD
 
@@ -86,15 +86,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:881567a79b
+--- type:NormalExercise lang:python xp: skills: key:46ab56d571
 ## TBD 
 TBD
 
@@ -102,15 +102,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:cb77ec5ab3
+--- type:NormalExercise lang:python xp: skills: key:fc926e7ba9
 ## TBD 
 TBD
 
@@ -118,15 +118,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:8a09bb928d
+--- type:NormalExercise lang:python xp: skills: key:9c5553fa60
 ## TBD 
 TBD
 
@@ -134,21 +134,21 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:VideoExercise lang:python xp: skills: key:7532c4520e
+--- type:VideoExercise lang:python xp: skills: key:c54859a703
 ## TBD 
 TBD
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:2fc91aec9b
+--- type:NormalExercise lang:python xp: skills: key:6541315313
 ## TBD 
 TBD
 
@@ -156,15 +156,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:2cb5829562
+--- type:NormalExercise lang:python xp: skills: key:0c5e32ab45
 ## TBD 
 TBD
 
@@ -172,15 +172,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:a7dbcfb733
+--- type:NormalExercise lang:python xp: skills: key:fd83dbc85b
 ## TBD 
 TBD
 
@@ -188,15 +188,15 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:a9f9cf757c
+--- type:NormalExercise lang:python xp: skills: key:8dc654c0c1
 ## TBD 
 TBD
 
@@ -204,10 +204,10 @@ TBD
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}

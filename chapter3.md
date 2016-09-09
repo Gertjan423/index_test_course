@@ -16,13 +16,13 @@ Bind these data sets into a single data set. Which bind should you use?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Bind rows 
@@ -32,13 +32,13 @@ Use one command to bind the entire list of data sets into a single data set. The
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Bind columns 
@@ -48,13 +48,13 @@ Use bind cols
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:MultipleChoiceExercise lang:python xp: skills:
 ## Danger 
@@ -64,9 +64,9 @@ What is the biggest risk when using bind cols?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:VideoExercise lang:python xp: skills:
 ## Build a better data frame 
@@ -82,9 +82,9 @@ Which is not an advantage of data_frame over data.frame?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Make a data frame 
@@ -94,13 +94,13 @@ Turn this columnwise data into a data frame
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Make another data frame 
@@ -110,13 +110,13 @@ Turn this rowwise data into a data frame
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Make one last data frame 
@@ -126,13 +126,13 @@ Turn this list into a data frame
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:VideoExercise lang:python xp: skills:
 ## Working with data types 
@@ -148,9 +148,9 @@ Which best describes R's coercion rules?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Determining type 
@@ -160,13 +160,13 @@ Run the code to see the type of X$x. Then write code and determine the type of Y
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
 --- type:NormalExercise lang:python xp: skills:
 ## Results 
@@ -176,10 +176,10 @@ Join the data sets together by x with a left join. Then determine the type of th
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}

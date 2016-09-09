@@ -2,13 +2,13 @@
 title        : Mutating joins
 description  : Mutating joins add new variables to one data set from another data set, matching observations across rows in the process. This chapter will explain the various ways you can join data sets together and what happens when you do. 
 
---- type:VideoExercise lang:python xp: skills: key:af0a9a9a11
+--- type:VideoExercise lang:python xp: skills: key:de76d0090c
 ## Welcome to the course! 
 Introduction. Why use dplyr to join data? Many data sets come in multiple tables, in fact that's the easiest way to store large data. dplyr joins faster are faster than base merges and preserve row order. You can also use them with dplyr's built in SQL backend.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:18fab32afe
+--- type:MultipleChoiceExercise lang:python xp: skills: key:a73697ff8f
 ## The advantages of dplyr 
 Which is not a reason to use dplyr to join data?
 
@@ -16,11 +16,11 @@ Which is not a reason to use dplyr to join data?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:b94a4824db
+--- type:NormalExercise lang:python xp: skills: key:fc4e6703f4
 ## Our data 
 Which data set contains the X variable?
 
@@ -28,21 +28,21 @@ Which data set contains the X variable?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:VideoExercise lang:python xp: skills: key:6451d9418f
+--- type:VideoExercise lang:python xp: skills: key:30e032625b
 ## Keys 
 To join two tables you need to identify a pair of keys that connect the tables. Keys are variables whose values are shared across tables. There are two kinds of keys, primary and secondary.
 
 *** =video_link
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:b4ae73abc2
+--- type:MultipleChoiceExercise lang:python xp: skills: key:9894978551
 ## Primary keys 
 Examine the data set, what is the primary key for this data set?
 
@@ -50,11 +50,11 @@ Examine the data set, what is the primary key for this data set?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:8072fe734b
+--- type:MultipleChoiceExercise lang:python xp: skills: key:e77c432c69
 ## Secondary keys 
 Which data sets have a secondary key that matches the primary?
 
@@ -62,11 +62,11 @@ Which data sets have a secondary key that matches the primary?
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:944c909efc
+--- type:MultipleChoiceExercise lang:python xp: skills: key:4a4f4c799e
 ## Multi-variable keys 
 In some cases the unique primary key is the interaction of two or more variables. What would be the primary key of this data set?
 
@@ -74,17 +74,17 @@ In some cases the unique primary key is the interaction of two or more variables
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:VideoExercise lang:python xp: skills: key:e2a877d0ae
+--- type:VideoExercise lang:python xp: skills: key:08f21ba03b
 ## Joins 
 Demonstrate left_join() and right_join().
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:957cab8963
+--- type:NormalExercise lang:python xp: skills: key:8517e8501c
 ## A basic join 
 Use pre-code with left_join()
 
@@ -92,15 +92,15 @@ Use pre-code with left_join()
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:c9c4b66ec6
+--- type:NormalExercise lang:python xp: skills: key:7c4d388075
 ## A right join 
 Use pre-code with right_join()
 
@@ -108,15 +108,15 @@ Use pre-code with right_join()
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:6a38b6023b
+--- type:MultipleChoiceExercise lang:python xp: skills: key:0bd1aeca56
 ## Right vs. left 
 Can you tell the difference between a right and a left join? How many rows will the result have if you right join the two data sets to the right. Each data set contains one unique observation per row. Pre-code should show the nrow() of two data sets and the nrow() of left joining them.
 
@@ -124,17 +124,17 @@ Can you tell the difference between a right and a left join? How many rows will 
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:VideoExercise lang:python xp: skills: key:7c5d1084cc
+--- type:VideoExercise lang:python xp: skills: key:3e509131fa
 ## Variations on joins 
 Explain diagram syntax. Demonstrate the differences between left_join(), right_join(), inner_join(), and full_join().
 
 *** =video_link
 
---- type:NormalExercise lang:python xp: skills: key:edceee4ab1
+--- type:NormalExercise lang:python xp: skills: key:aede106c4d
 ## Inner joins 
 Use pre-code to complete an inner_join()
 
@@ -142,15 +142,15 @@ Use pre-code to complete an inner_join()
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:461569bc47
+--- type:NormalExercise lang:python xp: skills: key:f1a1557b6c
 ## Full joins 
 Use pre-code to complete an full_join()
 
@@ -158,15 +158,15 @@ Use pre-code to complete an full_join()
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
 
---- type:MultipleChoiceExercise lang:python xp: skills: key:298272fb5b
+--- type:MultipleChoiceExercise lang:python xp: skills: key:d6029e2ef0
 ## Choose a join 
 Describe a result and have students choose which of the joins will return it.
 
@@ -174,11 +174,11 @@ Describe a result and have students choose which of the joins will return it.
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sct
+*** =sct{python}
 
---- type:NormalExercise lang:python xp: skills: key:aa6ae31362
+--- type:NormalExercise lang:python xp: skills: key:df08520e47
 ## Use a join 
 Use a dplyr join function to return every row that appears in either data set.
 
@@ -186,10 +186,10 @@ Use a dplyr join function to return every row that appears in either data set.
 
 *** =hint
 
-*** =pre_exercise_code
+*** =pre_exercise_code{python}
 
-*** =sample_code
+*** =sample_code{python}
 
-*** =solution
+*** =solution{python}
 
-*** =sct
+*** =sct{python}
